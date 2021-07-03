@@ -1,0 +1,23 @@
+ALGORITHM types
+VAR
+  x=0,y=0,z=0:integer
+  a:char
+  p:string
+BEGIN
+read(a)
+ while(a not '.')
+p:=a 
+write(p) and .
+ for (integer i=0; i<a.length,i+1)
+ if a(i)=' 'or'.'
+   x:=x+1  
+   for (integer i=0; i<a.length,i+1)
+ if a(i) not' ' 
+   y:=y+1
+for (integer i=0; i<a.length,i+1)
+ if a(i) = 'o' or 'i' or 'y' or 'e' or 'a' or 'u'
+   z:=z+1
+
+write(x,y,z)
+  
+END
